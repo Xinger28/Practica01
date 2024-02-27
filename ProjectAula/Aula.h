@@ -2,11 +2,12 @@
 class Aula
 {
 //Encapsulamiento
-private:
+protected:
 	int numerosillas;
 	int numeromesas;
 	int numeropizarras;
-
+private:
+	int data;
 public:
 	int codigoAula;
 	int sillas;
